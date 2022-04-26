@@ -28,7 +28,7 @@ namespace Plugins.Editor
 
             if (summary.result == BuildResult.Failed)
             {
-                throw new Exception("Build failed");
+                throw new Exception("Failed to build Android package. See log for details.");
             }
         }
         
