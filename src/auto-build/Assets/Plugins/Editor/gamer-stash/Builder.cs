@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.Build.Reporting;
 using UnityEngine;
-
+// & "C:\Program Files\Unity\Editor\Unity.exe" -batchmode -quit -executeMethod Plugins.Editor.Builder.BuildAndroid -buildTarget Android -logFile ./artifacts/unity.log
 namespace Plugins.Editor
 {
     public static class Builder
     {
         [MenuItem("Build/Build Android")]
-        public static void MyBuild()
+        public static void BuildAndroid()
         {
             var buildPlayerOptions = new BuildPlayerOptions
             {
