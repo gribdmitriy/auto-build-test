@@ -15,7 +15,7 @@ namespace Plugins.Editor
             {
                 scenes = GetScenes(),
                 target = BuildTarget.Android,
-                locationPathName = "../../artifacts/build.apk"
+                locationPathName = "../../artifacts/auto-build.apk"
             };
             
             var report = BuildPipeline.BuildPlayer(buildPlayerOptions);
