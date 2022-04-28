@@ -21,10 +21,6 @@ Task("Build-Android")
             ExecuteMethod = "Plugins.Editor.Builder.BuildAndroid",
             BuildTarget = BuildTarget.Android,
             LogFile = "./artifacts/unity.log"
-        },
-        new UnityEditorSettings
-        {
-            RealTimeLog = true
         });
 });
 
